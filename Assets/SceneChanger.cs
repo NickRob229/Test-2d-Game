@@ -9,8 +9,15 @@ public class SceneChanger : MonoBehaviour
     }
     public void Exit()
     {
-        Application.Quit();
+        // If we are in the editor
+        #if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+        // If we are in a standalone build
+        #else
+           Application.Quit();
+        #endif
     }
+
 
     void Start()
     {
