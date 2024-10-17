@@ -11,6 +11,7 @@ public class PlayerWalk : MonoBehaviour
     private bool isGrounded;            // Check if the player is grounded
     private bool canDoubleJump;         // Check if the player can double jump
     private bool isJumping;             // Check if the player is currently jumping
+    private bool isWalking;             // Check if the player is currently walking. Made by Nicholas and not sir
 
     private Transform groundCheck;      // Ground check position
     public float groundCheckRadius = 0.2f; // Radius for checking ground
@@ -30,6 +31,10 @@ public class PlayerWalk : MonoBehaviour
     {
         // Get the horizontal input (A/D or Left/Right arrow keys)
         float horizontalInput = Input.GetAxisRaw("Horizontal");
+        while (horizontalInput != 0)
+        {
+            isWalking = true;
+        }
 
         // Handle character flip when moving left or right
         if ((horizontalInput < 0 && isFacingRight) || (horizontalInput > 0 && !isFacingRight))
