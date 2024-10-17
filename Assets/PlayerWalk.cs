@@ -31,10 +31,6 @@ public class PlayerWalk : MonoBehaviour
     {
         // Get the horizontal input (A/D or Left/Right arrow keys)
         float horizontalInput = Input.GetAxisRaw("Horizontal");
-        while (horizontalInput != 0)
-        {
-            isWalking = true;
-        }
 
         // Handle character flip when moving left or right
         if ((horizontalInput < 0 && isFacingRight) || (horizontalInput > 0 && !isFacingRight))
