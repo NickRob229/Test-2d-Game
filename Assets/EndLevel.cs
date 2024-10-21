@@ -15,6 +15,7 @@ public class EndLevel : MonoBehaviour
         // Check if the object entering the trigger is the player
         if (other.gameObject.tag == "Player")
         {
+            SceneManager.LoadScene(nextSceneName);
             // display win message
             displayMessage.ShowMessage(showMessage);
             // Delay for visual effect (optional)
@@ -23,8 +24,8 @@ public class EndLevel : MonoBehaviour
     }
 
     // Function to load the next scene
-    private void LoadNextLevel()
+    /*rivate void LoadNextLevel()
     {
         SceneManager.LoadScene(nextSceneName);
-    }
+    }*/
 }

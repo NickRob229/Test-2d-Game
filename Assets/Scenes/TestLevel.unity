@@ -16279,7 +16279,7 @@ GameObject:
   - component: {fileID: 1778810013}
   m_Layer: 0
   m_Name: Pilgrim_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16328,7 +16328,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 6.5}
+  m_Size: {x: 1.66, y: 6.45}
   m_EdgeRadius: 0
 --- !u!50 &1778810008
 Rigidbody2D:
