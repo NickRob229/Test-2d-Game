@@ -155,11 +155,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 93
+        y: 0
         width: 758
-        height: 293
+        height: 386
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,99 +172,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Walking Bug 1 PNG_1
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 0
-        width: 47
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79401a4031197a750800000000000000
-      internalID: 6316176513278477463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking Bug 1 PNG_2
-      rect:
-        serializedVersion: 2
-        x: 424
-        y: 40
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8411437a62e74c500800000000000000
-      internalID: 415595770103992648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking Bug 1 PNG_3
-      rect:
-        serializedVersion: 2
-        x: 552
-        y: 0
-        width: 48
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa325c4d64672fd10800000000000000
-      internalID: 2157917218053366703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking Bug 1 PNG_4
-      rect:
-        serializedVersion: 2
-        x: 695
-        y: 40
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6f179ad1debed8430800000000000000
-      internalID: 3786942265325875702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 29c1178a88ca40d42afe37e6006c9d39
     internalID: 0
     vertices: []
     indices: 
@@ -273,7 +185,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walking Bug 1 PNG_0: -205281091240686680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

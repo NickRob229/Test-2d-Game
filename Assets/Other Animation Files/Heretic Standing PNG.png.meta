@@ -1,22 +1,13 @@
 fileFormatVersion: 2
-guid: d1acf0ae408b73a4cbdc1af48fe520af
+guid: 2388cb78421e11a41924c7335b98361b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4675796600704878509
-    second: Walking Bug 2 PNG_0
+      213: -2338983080422987670
+    second: Heretic Standing PNG_0
   - first:
-      213: -365560863991969872
-    second: Walking Bug 2 PNG_1
-  - first:
-      213: 1402349643480417127
-    second: Walking Bug 2 PNG_2
-  - first:
-      213: 6621435457055292792
-    second: Walking Bug 2 PNG_3
-  - first:
-      213: 270216858909910669
-    second: Walking Bug 2 PNG_4
+      213: -3727664386595190882
+    second: Heretic Standing PNG_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking Bug 2 PNG_0
+      name: Heretic Standing PNG_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 712
-        height: 366
+        width: 173
+        height: 635
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +157,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da74ef22c34c3e040800000000000000
-      internalID: 4675796600704878509
+      spriteID: a682db3e7434a8fd0800000000000000
+      internalID: -2338983080422987670
       vertices: []
       indices: 
       edges: []
@@ -176,7 +167,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f3f2db61db85bef4d8b8232877adb60a
+    spriteID: 6c9cd5510317bb94ca0088d81fabfc2d
     internalID: 0
     vertices: []
     indices: 
@@ -186,7 +177,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Walking Bug 2 PNG_0: 4675796600704878509
+      Heretic Standing PNG_0: -2338983080422987670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

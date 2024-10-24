@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: d1acf0ae408b73a4cbdc1af48fe520af
+guid: 6685406a254a4e8418e5214434d83c02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4675796600704878509
-    second: Walking Bug 2 PNG_0
+      213: -4253342947270007099
+    second: Pilgrim Praying PNG_0
   - first:
-      213: -365560863991969872
-    second: Walking Bug 2 PNG_1
+      213: -2158031792536871928
+    second: Pilgrim Praying PNG_1
   - first:
-      213: 1402349643480417127
-    second: Walking Bug 2 PNG_2
+      213: -6460062560469878856
+    second: Pilgrim Praying PNG_2
   - first:
-      213: 6621435457055292792
-    second: Walking Bug 2 PNG_3
-  - first:
-      213: 270216858909910669
-    second: Walking Bug 2 PNG_4
+      213: -5256160413955452035
+    second: Pilgrim Praying PNG_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,23 +148,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking Bug 2 PNG_0
+      name: Pilgrim Praying PNG_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 712
-        height: 366
+        y: 355
+        width: 210
+        height: 203
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da74ef22c34c3e040800000000000000
-      internalID: 4675796600704878509
+      spriteID: 5c6ee08ef1719f4c0800000000000000
+      internalID: -4253342947270007099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim Praying PNG_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 316
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c17d7b4812d02e0800000000000000
+      internalID: -2158031792536871928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim Praying PNG_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 63
+        width: 152
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b77460045f3956a0800000000000000
+      internalID: -6460062560469878856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim Praying PNG_3
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 54
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7317bba3fd5e07b0800000000000000
+      internalID: -5256160413955452035
       vertices: []
       indices: 
       edges: []
@@ -176,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f3f2db61db85bef4d8b8232877adb60a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,8 +248,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Walking Bug 2 PNG_0: 4675796600704878509
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: d1acf0ae408b73a4cbdc1af48fe520af
+guid: e9c2b4a8e4d30464ba8fe16efa24434d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4675796600704878509
-    second: Walking Bug 2 PNG_0
+      213: -3547367268573684707
+    second: Pilgrim Sitting PNG_0
   - first:
-      213: -365560863991969872
-    second: Walking Bug 2 PNG_1
+      213: -2105902586723488406
+    second: Pilgrim Sitting PNG_1
   - first:
-      213: 1402349643480417127
-    second: Walking Bug 2 PNG_2
+      213: 7146633651064741550
+    second: Pilgrim Sitting PNG_2
   - first:
-      213: 6621435457055292792
-    second: Walking Bug 2 PNG_3
-  - first:
-      213: 270216858909910669
-    second: Walking Bug 2 PNG_4
+      213: 7586057840053267702
+    second: Pilgrim Sitting PNG_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,23 +148,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking Bug 2 PNG_0
+      name: Pilgrim Sitting PNG_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 712
-        height: 366
+        x: 128
+        y: 315
+        width: 171
+        height: 158
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da74ef22c34c3e040800000000000000
-      internalID: 4675796600704878509
+      spriteID: d1c51d4934835cec0800000000000000
+      internalID: -3547367268573684707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim Sitting PNG_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 101
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d25c241c456c2e0800000000000000
+      internalID: -2105902586723488406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim Sitting PNG_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 188
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae119fe071fd2360800000000000000
+      internalID: 7146633651064741550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pilgrim Sitting PNG_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc21f1b967174960800000000000000
+      internalID: 7586057840053267702
       vertices: []
       indices: 
       edges: []
@@ -176,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f3f2db61db85bef4d8b8232877adb60a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,8 +248,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Walking Bug 2 PNG_0: 4675796600704878509
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

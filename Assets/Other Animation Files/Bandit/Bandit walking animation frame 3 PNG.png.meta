@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: d1acf0ae408b73a4cbdc1af48fe520af
+guid: 7c010c503da9d7d4ab30a624a13f5100
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4675796600704878509
-    second: Walking Bug 2 PNG_0
+      213: -2191774282826393833
+    second: Bandit walking animation frame 3 PNG_0
   - first:
-      213: -365560863991969872
-    second: Walking Bug 2 PNG_1
+      213: 384142461434144234
+    second: Bandit walking animation frame 3 PNG_1
   - first:
-      213: 1402349643480417127
-    second: Walking Bug 2 PNG_2
+      213: 7517526782293468836
+    second: Bandit walking animation frame 3 PNG_2
   - first:
-      213: 6621435457055292792
-    second: Walking Bug 2 PNG_3
+      213: -3822474871205589744
+    second: Bandit walking animation frame 3 PNG_3
   - first:
-      213: 270216858909910669
-    second: Walking Bug 2 PNG_4
+      213: 9078256736945001615
+    second: Bandit walking animation frame 3 PNG_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -151,23 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking Bug 2 PNG_0
+      name: Bandit walking animation frame 3 PNG_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 712
-        height: 366
+        y: 277
+        width: 310
+        height: 70
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da74ef22c34c3e040800000000000000
-      internalID: 4675796600704878509
+      spriteID: 717db4cf6e04591e0800000000000000
+      internalID: -2191774282826393833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandit walking animation frame 3 PNG_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 165
+        width: 173
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae52dec888fb45500800000000000000
+      internalID: 384142461434144234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandit walking animation frame 3 PNG_2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 286
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6661867ce935860800000000000000
+      internalID: 7517526782293468836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandit walking animation frame 3 PNG_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 49
+        width: 105
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d0fe26b57d3fac0800000000000000
+      internalID: -3822474871205589744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandit walking animation frame 3 PNG_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 105
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84576157627cfd70800000000000000
+      internalID: 9078256736945001615
       vertices: []
       indices: 
       edges: []
@@ -176,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f3f2db61db85bef4d8b8232877adb60a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,8 +273,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Walking Bug 2 PNG_0: 4675796600704878509
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
