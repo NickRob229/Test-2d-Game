@@ -66,9 +66,10 @@ public class PlayerWalk : MonoBehaviour
             isJumping = false;
         }
 
-        // Update the Animator
+        //Update the Animator
         //animator.SetBool("isJumping", isJumping); // Set jumping state
         //animator.SetFloat("speed", Mathf.Abs(rb.linearVelocity.x)); // Set speed based on horizontal velocity
+
     }
 
     void FixedUpdate()

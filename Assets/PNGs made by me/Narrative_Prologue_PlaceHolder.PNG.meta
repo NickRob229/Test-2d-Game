@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Narrative_Prologue_PlaceHolder_0: 3452379938781593513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
