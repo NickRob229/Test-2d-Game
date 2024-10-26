@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pilgrim Praying PNG_0: -4253342947270007099
+      Pilgrim Praying PNG_1: -2158031792536871928
+      Pilgrim Praying PNG_2: -6460062560469878856
+      Pilgrim Praying PNG_3: -5256160413955452035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

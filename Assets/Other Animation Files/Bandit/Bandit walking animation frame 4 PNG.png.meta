@@ -146,11 +146,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 165
+        y: 0
         width: 437
-        height: 481
+        height: 646
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -163,33 +163,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Bandit walking animation frame 4 PNG_1
-      rect:
-        serializedVersion: 2
-        x: 230
-        y: 0
-        width: 182
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 962f53bff9ce9af30800000000000000
-      internalID: 4587457867312132713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b2c23e803af87b740a65504d9b9d4aa0
     internalID: 0
     vertices: []
     indices: 
@@ -198,7 +176,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bandit walking animation frame 4 PNG_0: -4537015547450671479
+      Bandit walking animation frame 4 PNG_1: 4587457867312132713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

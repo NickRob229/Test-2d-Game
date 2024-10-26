@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flying Bug 2 PNG_0: -1505895667384457919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

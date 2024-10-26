@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pilgrim Sitting PNG_0: -3547367268573684707
+      Pilgrim Sitting PNG_1: -2105902586723488406
+      Pilgrim Sitting PNG_2: 7146633651064741550
+      Pilgrim Sitting PNG_3: 7586057840053267702
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
