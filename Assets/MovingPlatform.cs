@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingEnemy : MonoBehaviour
+public class MovingPlatforms : MonoBehaviour
 {
     public Transform platform; // reference for the platform
     public Transform startPoint; // reference for the start point
@@ -43,5 +43,26 @@ public class MovingEnemy : MonoBehaviour
             return endPoint.position;
         }
     }
+    // Ensure player becomes a child of the platform on collision
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            col.gameObject.transform.SetParent(platform.transform, true);
+        }
+    }
+
+    // Ensure player stops following the platform when exiting collision
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            if (col.gameObject.transform.parent == platform.transform)
+            {
+                col.gameObject.transform.SetParent(null, true);
+            }
+        }
+    }
+
     // End of Additional Code
 }
