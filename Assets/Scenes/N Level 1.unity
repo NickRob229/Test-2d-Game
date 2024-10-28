@@ -10727,7 +10727,7 @@ GameObject:
   - component: {fileID: 1399194654}
   m_Layer: 0
   m_Name: Finish Post
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10874,7 +10874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6342c29dd59416541a52d0f79eafb520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Nomad Level 2
+  nextSceneName: N Level 2
   displayMessage: {fileID: 2128916643}
   showMessage: Time to explore the bandit camp
 --- !u!1 &1405771002
@@ -12826,7 +12826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: Idk
 --- !u!222 &1534325958
 CanvasRenderer:
   m_ObjectHideFlags: 0
