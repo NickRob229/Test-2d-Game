@@ -32,6 +32,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/C Level 1.unity
     guid: 09e5994b067db6c44b7479c8c4df21f7
+  - enabled: 1
+    path: Assets/Scenes/Orb-Sword Narrative.unity
+    guid: e990ac1b2bcd72e4e8d97a2dc8cfa333
+  - enabled: 1
+    path: Assets/Scenes/H Level 1.unity
+    guid: 045d9557350508d489993fa5aabe9dfc
+  - enabled: 1
+    path: Assets/Scenes/Sword-Ending Narrative.unity
+    guid: 54abd1deb62672b40a540376a02e7fe6
+  - enabled: 1
+    path: Assets/Scenes/Final Level.unity
+    guid: 8a3892411f268504c9dc5981480724f5
+  - enabled: 1
+    path: Assets/Scenes/NarrativeEnding.unity
+    guid: a1eaf6485e4fca34fb35a2ab5abbf600
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 084be569b45c6d844bd2b063025fd4ee
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
