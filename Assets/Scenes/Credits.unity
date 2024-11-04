@@ -284,7 +284,6 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1660009965}
   - {fileID: 1139274672}
   m_Father: {fileID: 688523910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -505,6 +504,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 458679595}
+  - {fileID: 1660009965}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -570,14 +570,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Credits:\n\nGame Developer - Nicholas J Robertson\nArtist - Nicholas J
-    Robertson\nLevel Designer - Nicholas J Robertson\n\nMain Coder - Nigel Morris\nAnimation
-    Code - Chat GPT (Check with sir if I should leave this in)\n\nSpecial Thanks:\nMy
-    Mum - Helped me make decisions on how many levels I should make and how I should
-    use my time.\nMy Dad - Helped me with difficulties with the unity engine and
-    visual studio at home. \nMy Cats - They are great and wanted to put them here,
-    also I found out one of them has cancer near the end of this project, so I wanted
-    to Memorialize my cat Titch in these credits.\n\nMade With Unity 6 Engine\n\nThank
-    You for Playing"
+    Robertson\nLevel Designer - Nicholas J Robertson\n\nMain Coder - Nigel Morris\n\nSpecial
+    Thanks:\nMy Mum - Helped me make decisions on how many levels I should make and
+    how I should use my time.\nMy Dad - Helped me with difficulties with the unity
+    engine and visual studio at home. \nMy Cats - They are great and wanted to put
+    them here, also I found out one of them has cancer near the end of this project,
+    so I wanted to Memorialize my cat Titch in these credits.\n\nMade With Unity
+    6 Engine\n\nThank You for Playing"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -604,8 +603,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -642,7 +641,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 537.4195, y: 344.07956, z: 530.8654, w: 152.37811}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -865,15 +864,15 @@ RectTransform:
   m_GameObject: {fileID: 1660009964}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7955961}
-  m_Father: {fileID: 458679595}
+  m_Father: {fileID: 688523910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -601}
+  m_AnchoredPosition: {x: 0, y: -300}
   m_SizeDelta: {x: 250, y: 82.3643}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660009966
@@ -922,8 +921,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1405228025}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: ChangeScene
-        m_Mode: 5
+        m_MethodName: Exit
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
