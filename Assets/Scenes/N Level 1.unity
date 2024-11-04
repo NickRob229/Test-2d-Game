@@ -392,7 +392,7 @@ GameObject:
   - component: {fileID: 52959251}
   m_Layer: 0
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1090,7 +1090,7 @@ GameObject:
   - component: {fileID: 133115993}
   m_Layer: 0
   m_Name: Triangle (8)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2615,7 +2615,7 @@ GameObject:
   - component: {fileID: 427563595}
   m_Layer: 0
   m_Name: Triangle (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2926,7 +2926,7 @@ GameObject:
   - component: {fileID: 437967397}
   m_Layer: 0
   m_Name: Triangle (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3367,7 +3367,7 @@ Transform:
   m_GameObject: {fileID: 468893186}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.35, z: -10}
+  m_LocalPosition: {x: 235.1, y: -3.35, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5350,7 +5350,7 @@ GameObject:
   - component: {fileID: 762209572}
   m_Layer: 0
   m_Name: Flying Bug Model
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5919,7 +5919,7 @@ GameObject:
   - component: {fileID: 856751128}
   m_Layer: 0
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7832,7 +7832,7 @@ GameObject:
   - component: {fileID: 1092925803}
   m_Layer: 0
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9360,7 +9360,7 @@ GameObject:
   - component: {fileID: 1280977544}
   m_Layer: 0
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9828,7 +9828,7 @@ GameObject:
   - component: {fileID: 1329363511}
   m_Layer: 0
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10240,7 +10240,7 @@ Transform:
   m_GameObject: {fileID: 1357421933}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.35, z: -10}
+  m_LocalPosition: {x: 235.1, y: -3.35, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10259,7 +10259,7 @@ GameObject:
   - component: {fileID: 1357651103}
   m_Layer: 0
   m_Name: Triangle (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11278,6 +11278,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   heartPrefab: {fileID: 201041678211580810, guid: 037aca41fb3142e45addc4d24a64de81, type: 3}
   heartContainer: {fileID: 989175508}
+  onDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1908782540}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: Exit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   maxHealth: 5
 --- !u!1 &1432622300
 GameObject:
@@ -11379,7 +11394,7 @@ GameObject:
   - component: {fileID: 1434128658}
   m_Layer: 0
   m_Name: Triangle (6)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11812,7 +11827,7 @@ GameObject:
   - component: {fileID: 1474965109}
   m_Layer: 0
   m_Name: Flying Bug Model
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12826,7 +12841,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Idk
+  m_Text: This is the text for YEA
 --- !u!222 &1534325958
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13613,9 +13628,10 @@ GameObject:
   - component: {fileID: 1716488782}
   - component: {fileID: 1716488781}
   - component: {fileID: 1716488780}
+  - component: {fileID: 1716488787}
   m_Layer: 0
   m_Name: Pilgrim_Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13807,13 +13823,27 @@ Transform:
   m_GameObject: {fileID: 1716488779}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: -4.35, z: 0}
+  m_LocalPosition: {x: 235.1, y: -4.35, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2086589066}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1716488787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716488779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50ac676ec9819df45a0f9be41d8a15c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthManager: {fileID: 1417624483}
+  damageTag: Enemy
 --- !u!1 &1726597096
 GameObject:
   m_ObjectHideFlags: 0
@@ -14088,7 +14118,7 @@ GameObject:
   - component: {fileID: 1735386292}
   m_Layer: 0
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14813,7 +14843,7 @@ GameObject:
   - component: {fileID: 1817322080}
   m_Layer: 0
   m_Name: Triangle (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15299,7 +15329,7 @@ GameObject:
   - component: {fileID: 1857612322}
   m_Layer: 0
   m_Name: Triangle (5)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15896,7 +15926,7 @@ GameObject:
   - component: {fileID: 1921975881}
   m_Layer: 0
   m_Name: Flying Bug Model
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16648,7 +16678,6 @@ GameObject:
   - component: {fileID: 2009478395}
   - component: {fileID: 2009478393}
   - component: {fileID: 2009478396}
-  - component: {fileID: 2009478397}
   m_Layer: 0
   m_Name: Walking Bug Model
   m_TagString: Enemy
@@ -16794,20 +16823,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2009478397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2009478391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50ac676ec9819df45a0f9be41d8a15c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthManager: {fileID: 1417624483}
-  damageTag: Enemy
 --- !u!1 &2011368734
 GameObject:
   m_ObjectHideFlags: 0
@@ -17729,7 +17744,7 @@ GameObject:
   - component: {fileID: 2092623000}
   m_Layer: 0
   m_Name: Triangle (7)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18072,7 +18087,7 @@ GameObject:
   - component: {fileID: 2115000326}
   m_Layer: 0
   m_Name: Triangle (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

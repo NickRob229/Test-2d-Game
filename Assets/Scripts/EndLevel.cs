@@ -24,7 +24,7 @@ public class EndLevel : MonoBehaviour
     }
 
     // Function to load the next scene
-    /*rivate void LoadNextLevel()
+    /*private void LoadNextLevel()
     {
         SceneManager.LoadScene(nextSceneName);
     }*/
