@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 52959249}
   - component: {fileID: 52959250}
   - component: {fileID: 52959251}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -1088,7 +1088,7 @@ GameObject:
   - component: {fileID: 133115991}
   - component: {fileID: 133115992}
   - component: {fileID: 133115993}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (8)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2613,7 +2613,7 @@ GameObject:
   - component: {fileID: 427563593}
   - component: {fileID: 427563594}
   - component: {fileID: 427563595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -2924,7 +2924,7 @@ GameObject:
   - component: {fileID: 437967395}
   - component: {fileID: 437967396}
   - component: {fileID: 437967397}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3216,7 +3216,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -5917,7 +5917,7 @@ GameObject:
   - component: {fileID: 856751126}
   - component: {fileID: 856751127}
   - component: {fileID: 856751128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -7830,7 +7830,7 @@ GameObject:
   - component: {fileID: 1092925801}
   - component: {fileID: 1092925802}
   - component: {fileID: 1092925803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -9358,7 +9358,7 @@ GameObject:
   - component: {fileID: 1280977542}
   - component: {fileID: 1280977543}
   - component: {fileID: 1280977544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -9826,7 +9826,7 @@ GameObject:
   - component: {fileID: 1329363509}
   - component: {fileID: 1329363510}
   - component: {fileID: 1329363511}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -10257,7 +10257,7 @@ GameObject:
   - component: {fileID: 1357651101}
   - component: {fileID: 1357651102}
   - component: {fileID: 1357651103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -11392,7 +11392,7 @@ GameObject:
   - component: {fileID: 1434128656}
   - component: {fileID: 1434128657}
   - component: {fileID: 1434128658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (6)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -14116,7 +14116,7 @@ GameObject:
   - component: {fileID: 1735386290}
   - component: {fileID: 1735386291}
   - component: {fileID: 1735386292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (2)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -14841,7 +14841,7 @@ GameObject:
   - component: {fileID: 1817322078}
   - component: {fileID: 1817322079}
   - component: {fileID: 1817322080}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (3)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -15327,7 +15327,7 @@ GameObject:
   - component: {fileID: 1857612320}
   - component: {fileID: 1857612321}
   - component: {fileID: 1857612322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (5)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -17742,7 +17742,7 @@ GameObject:
   - component: {fileID: 2092622998}
   - component: {fileID: 2092622999}
   - component: {fileID: 2092623000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (7)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -18085,7 +18085,7 @@ GameObject:
   - component: {fileID: 2115000324}
   - component: {fileID: 2115000325}
   - component: {fileID: 2115000326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Triangle (4)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
